@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Pdf from '../assets/resume.pdf'
 import img from '../assets/Logo.png'
 import hover_img from '../assets/hover-logo.png'
 
@@ -29,7 +29,7 @@ const Header2 = () => {
                 <a class='text-[#fffff] hover:text-[#808080]' href="mailto:imannfazal@gmail.com">imannfazal@gmail.com</a>
                 
             </div>
-            <div className='font-medium ml-[200px] cursor-pointer text-[#fffff] hover:text-[#808080]'  >Résumé </div>
+            <div className='font-medium ml-[200px] cursor-pointer text-[#fffff] hover:text-[#808080]'  > <a href = {Pdf} target = "_blank">Résumé</a></div>
 
         </div>
     )

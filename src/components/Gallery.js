@@ -6,7 +6,7 @@ const Gallery = () => {
     return (
         <div>
             <div class="inline-flex ml-[90px] mt-[50px] text-[#5f5f5f] text-[20px]">
-                <img class='lift cursor-pointer' alt='work' src={img} />
+                <img class='lift cursor-pointer  h-[332px] lift w-[422px]' alt='work' src={img} />
                 <img class='lift cursor-pointer ml-28' alt='work' src={img} />
                 <img class='lift cursor-pointer ml-28' alt='work' src={img} />
             </div>
