@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "KrubRegular";
+    src: local("KrubRegular"),
+        url("./fonts/Krub-Regular.ttf") format("truetype");
+
+    /* font-family: "CLassicalDiaryDemo";
+    src: local("CLassicalDiaryDemo"),
+        url("./fonts/ClassicalDiary-Regular\ Demo.ttf") format("truetype"); */
+}
+
+
+@font-face {
+    font-family: "CLassicalDiaryDemo";
+    src: local("CLassicalDiaryDemo"),
+        url("./fonts/ClassicalDiary-Regular\ Demo.ttf") format("truetype");
+}
+
+
+.fontKrub {
+    font-family: "KrubRegular";
+}
