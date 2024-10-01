@@ -5,7 +5,7 @@ import './Gallery.css'
 const Gallery = () => {
     return (
         <div>
-            <div class="inline-flex mt-[50px] text-[#5f5f5f] text-[20px]">
+            <div class="inline-flex mt-[20px] text-[#5f5f5f] text-[20px]">
                 <img class='lift cursor-pointer h-[300px] w-[400px]' alt='work' src={img} />
                 <img class='lift cursor-pointer ml-24 h-[300px] w-[400px]' alt='work' src={img} />
                 <img class='lift cursor-pointer ml-24 h-[300px] w-[400px]' alt='work' src={img} />

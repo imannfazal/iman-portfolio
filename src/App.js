@@ -7,7 +7,7 @@ import "./fonts/ClassicalDiary-Regular Demo.ttf"
 
 function App() {
   return (
-    <div className="fontKrub p-30 bg-gradient-to-r from-[#7F7070] to-[#380733] w-full" >
+    <div className="fontKrub p-30 bg-gradient-to-r from-[#7F7070] to-[#380733] w-full h-full" >
       <Header2 />
       <Hero />
     </div>
