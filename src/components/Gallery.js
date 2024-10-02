@@ -3,21 +3,24 @@ import './Gallery.css'
 import SRE from '../assets/SRE.png'
 import Daily from '../assets/daily.png'
 import Rush from '../assets/rush.png'
-import dex from '../assets/dex.png'
+import dex from '../assets/dex.jpg'
 import bank from '../assets/bank.png'
+import pred from '../assets/prediction.jpg'
 import Image from './Card'
 
 const Gallery = () => {
     return (
         <div>
             <div class="inline-flex mt-[20px] text-[#5f5f5f] text-[20px]">
-                <div class='lift cursor-pointer'><Image text='indexx Fortune Daily' src={Daily} /></div>
-                <div class='ml-24 lift cursor-pointer'><Image text='Discipline Planning System' src={SRE} /></div>
-                <div class='ml-24 lift cursor-pointer'><Image text='indexx Bank' src={bank} /></div>
+                <a href='/Fortune-Daily' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Fortune Daily' src={Daily} /></a>
+                <div class='ml-24 lift cursor-pointer'><Image role='Website Design' text='Discipline Planning System' src={SRE} /></div>
+                <div class='ml-24 lift cursor-pointer'><Image role='Website Design and Development' text='indexx Bank' src={bank} /></div>
             </div>
             <div class="inline-flex mt-[50px] text-[#5f5f5f] text-[20px]">
-            <div class='lift cursor-pointer'><Image text='indexx Decentralized Exchange' src={dex} /></div>
-            <div class='ml-24 lift cursor-pointer'><Image text='indexx Rush' src={Rush} /></div>
+                <div class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Decentralized Exchange' src={dex} /></div>
+                <div class='ml-24 lift cursor-pointer'><Image role='Website Design and Development' text='indexx Rush' src={Rush} /></div>
+                <div class='ml-24 lift cursor-pointer'><Image role='Website Design' text='indexx Rush' src={pred} /></div>
+
             </div>
         </div>
     )

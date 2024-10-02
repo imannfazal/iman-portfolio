@@ -10,9 +10,9 @@ const Header2 = () => {
 
     return (
         <div class="inline-flex ml-[70px] mt-[50px] text-[#ffffff] text-[20px]">
-            <div> <img class='cursor-pointer' width="52" alt='logo' src={image}
+            <a href='/'> <img class='cursor-pointer' width="52" alt='logo' src={image}
                 onMouseEnter={() => setImg(hover_img)}
-                onMouseOut={() => setImg(img)} /></div>
+                onMouseOut={() => setImg(img)} /></a>
             <div className='text-[16px] ml-[570px]'>
                 <div class='font-medium text-[19px] mb-5'>Services</div>
                 Website Design
