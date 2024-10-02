@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/work.png'
+// import img from '../assets/work.png'
 import './Gallery.css'
 import SRE from '../assets/SRE.png'
 import Daily from '../assets/daily.png'
