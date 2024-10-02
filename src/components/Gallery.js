@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 // import img from '../assets/work.png'
 import './Gallery.css'
 import SRE from '../assets/SRE.png'
@@ -6,7 +6,6 @@ import Daily from '../assets/daily.png'
 import Rush from '../assets/rush.png'
 import dex from '../assets/dex.png'
 import bank from '../assets/bank.png'
-import Card from './Card'
 import Image from './Card'
 
 const Gallery = () => {
