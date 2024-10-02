@@ -18,7 +18,7 @@ const Gallery = () => {
             <div class="inline-flex mt-[50px] text-[#5f5f5f] text-[20px]">
                 <img class='h-[300px] w-[390px] lift cursor-pointer' alt='work' src={Rush} />
                 <img class='h-[300px] w-[390px] lift cursor-pointer ml-24' width='100%' alt='work' src={bank} />
-                <img class='h-[300px] w-[390px] lift cursor-pointer ml-24' alt='work' src={img} />
+                {/* <img class='h-[300px] w-[390px] lift cursor-pointer ml-24' alt='work' src={img} /> */}
             </div>
         </div>
     )
