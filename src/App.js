@@ -9,10 +9,12 @@ import SRE from "./components/Pages/SRE";
 import Bank from "./components/Pages/Bank";
 import Dex from "./components/Pages/Dex";
 import Prediction from "./components/Pages/Prediction";
+import Header2 from "./components/Header2";
 
 function App() {
   return (
     <div class='bg-gradient-to-r from-[#7F7070] to-[#380733] w-full h-full'>
+      <Header2 />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
