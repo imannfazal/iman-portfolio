@@ -9,11 +9,11 @@ const Header2 = () => {
     const [image, setImg] = useState(img);
 
     return (
-        <div class="inline-flex md:mx-[70px] mx-[20px] mt-[30px] md:mt-[50px] text-[#ffffff] md:text-[20px] text-[12px]">
+        <div class="inline-flex md:mx-[70px] mx-[10px] mt-[30px] md:mt-[50px] text-[#ffffff] md:text-[20px] text-[12px]">
             <a href='/'> <img class='md:w-[52px] w-[30px] cursor-pointer' alt='logo' src={image}
                 onMouseEnter={() => setImg(hover_img)}
                 onMouseOut={() => setImg(img)} /></a>
-            <div class='md:ml-[570px] ml-[70px] inline-flex'>
+            <div class='md:ml-[570px] ml-[40px] inline-flex'>
                 <div className='md:text-[16px] text-[10px]'>
                     <div class='font-medium md:text-[19px] text-[12px] mb-5'>Services</div>
                     Website Design
@@ -21,12 +21,12 @@ const Header2 = () => {
                     <br /> Graphic Design
                     <br /> Video Editing Design
                 </div>
-                <div className='md:ml-[130px] ml-[20px]'>
+                <div className='md:ml-[130px] ml-[12px]'>
                     <div class='font-medium md:text-[19px] text-[12px] mb-5'>Contact</div>
                     <a class='text-[#fffff] hover:text-[#808080] md:text-[16px]' href="mailto:imannfazal@gmail.com">imannfazal@gmail.com</a>
 
                 </div>
-                <div className='font-medium md:ml-[130px] ml-[20px] cursor-pointer text-[#fffff] hover:text-[#808080]'  > <a href={Pdf} rel="noreferrer" target="_blank">Résumé</a></div>
+                <div className='font-medium md:ml-[130px] ml-[12px] cursor-pointer text-[#fffff] hover:text-[#808080]'  > <a href={Pdf} rel="noreferrer" target="_blank">Résumé</a></div>
             </div>
 
         </div>

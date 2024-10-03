@@ -16,3 +16,13 @@ code {
     monospace;
 }
 
+/* index.css */
+/* index.css */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to right, #7F7070, #380733); /* Left to right gradient */
+  background-size: cover;
+  background-position: center;
+}
+

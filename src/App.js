@@ -13,7 +13,7 @@ import Header2 from "./components/Header2";
 
 function App() {
   return (
-    <div class='bg-gradient-to-r from-[#7F7070] to-[#380733] w-full h-full'>
+    <div>
       <Header2 />
       <BrowserRouter>
         <Routes>
