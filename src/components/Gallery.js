@@ -14,7 +14,7 @@ const Gallery = () => {
             <div class="inline-flex mt-[20px] text-[#5f5f5f] text-[20px]">
                 <a href='/Fortune-Daily' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Fortune Daily' src={Daily} /></a>
                 <div class='ml-24 lift cursor-pointer'><Image role='Website Design' text='Discipline Planning System' src={SRE} /></div>
-                <div class='ml-24 lift cursor-pointer'><Image role='Website Design and Development' text='indexx Bank' src={bank} /></div>
+                <a href='/indexxBank' class='ml-24 lift cursor-pointer'><Image role='Website Design and Development' text='indexx Bank' src={bank} /></a>
             </div>
             <div class="inline-flex mt-[50px] text-[#5f5f5f] text-[20px]">
                 <div class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Decentralized Exchange' src={dex} /></div>
