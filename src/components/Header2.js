@@ -19,7 +19,7 @@ const Header2 = () => {
                     Website Design
                     <br /> Frontend Development
                     <br /> Graphic Design
-                    <br /> Video Editing Design
+                    <br /> Video Editing
                 </div>
                 <div className='md:ml-[130px] ml-[12px]'>
                     <div class='font-medium md:text-[19px] text-[12px] mb-5'>Contact</div>
