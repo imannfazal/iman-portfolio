@@ -14,11 +14,11 @@ const SRE = () => {
       <div class='text-[14px] font-medium'>Project</div>
       <div class='text-[54px] font-medium'>DISCIPLINE PLANNING <div>SYSTEM</div></div>
       <div class='mb-12 mt-7 text-[18px] font-light w-[800px]'>Designed the user interface of Discipline Planning System using Figma.  </div>
-      <img class='w-full h-full mb-9' alt='bank' src={home} />
+      <div class='mx-12'><img class='w-full h-full mb-9' alt='bank' src={home} />
       <img class='w-full h-full mb-9' alt='bank' src={welcome} />
       <img class='w-full h-full mb-9' alt='bank' src={info} />
       <img class='w-full h-full mb-9' alt='bank' src={activities} />
-      <img class='w-full h-full' alt='bank' src={report} />
+      <img class='w-full h-full' alt='bank' src={report} /></div>
       <div class='mt-12 mb-7 text-[18px] font-light w-[800px]'>More work </div>
       <div class='inline-flex h-[300px]'>
         <a href='/Fortune-Daily' class='lift cursor-pointer '><img alt='bank' className='w-[320px] h-[260px]' src={Daily} /></a>

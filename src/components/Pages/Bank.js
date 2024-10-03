@@ -16,12 +16,12 @@ const Bank = () => {
       <div class='text-[14px] font-medium'>Project</div>
       <div class='text-[54px] font-medium'>iNDEXX BANK</div>
       <div class='mb-12 mt-7 text-[18px] font-light w-[800px]'>Designed the user interface using Figma and then developed a user-friendly frontend for the indexx Bank by utilizing ReactJS and Tailwind CSS.</div>
-      <img class='w-full h-full mb-9' alt='bank' src={dashboard} />
+      <div class='mx-12'><img class='w-full h-full mb-9' alt='bank' src={dashboard} />
       <img class='w-full h-full mb-9' alt='bank' src={page2} />
       <img class='w-full h-full mb-9' alt='bank' src={borrow} />
       <img class='w-full h-full' alt='bank' src={borrow2} />
       <img class='w-full h-full' alt='bank' src={page4} />
-      <img class='w-full h-full' alt='bank' src={page5} />
+      <img class='w-full h-full' alt='bank' src={page5} /></div>
       <div class='mt-12 mb-7 text-[18px] font-light w-[800px]'>More work </div>
       <div class='inline-flex h-[300px]'>
         <a href='/Fortune-Daily' class='lift cursor-pointer '><img alt='bank' className='w-[320px] h-[260px]' src={Daily} /></a>

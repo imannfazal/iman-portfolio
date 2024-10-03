@@ -19,7 +19,7 @@ const Gallery = () => {
             <div class="inline-flex mt-[50px] text-[#5f5f5f] text-[20px]">
                 <a href='/Decentralized-Exchange' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Decentralized Exchange' src={dex} /></a>
                 <a href='/Fortune-Rush' class='ml-24 lift cursor-pointer'><Image role='Website Design and Development' text='indexx Rush' src={Rush} /></a>
-                <div class='ml-24 lift cursor-pointer'><Image role='Website Design' text='indexx Rush' src={pred} /></div>
+                <a href='/prediction' class='ml-24 lift cursor-pointer'><Image role='Website Design' text='indexx Rush' src={pred} /></a>
 
             </div>
         </div>

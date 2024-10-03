@@ -1,20 +1,16 @@
 import React from 'react'
-import header from '../../assets/dex/header.jpg'
-import swap1 from '../../assets/dex/swap1.jpg'
-import swap2 from '../../assets/dex/swap2.jpg'
-import swap3 from '../../assets/dex/swap3.jpg'
 
-const Dex = () => {
+const Prediction = () => {
   return (
     <div className='mx-20 py-20 text-[#ffffff]'>
       <div class='text-[14px] font-medium'>Project</div>
-      <div class='text-[54px] font-medium'>iNDEXX <div class='-mt-3'>DECENTRALIZED EXCHANGE</div></div>
+      <div class='text-[54px] font-medium'>iNDEXX <div class='-mt-3'>PREDICTION BETA</div></div>
       <div class='mb-12 mt-7 text-[18px] font-light w-[800px]'>Designed and implemented the user interface of the indexx Decentralized Exchange using
       ReactJS, Figma and Tailwind CSS. </div>
-      <div class='mx-12'><img class='w-full h-full' alt='bank' src={header} />
-      <img class='w-full h-full' alt='bank' src={swap1} />
-      <img class='w-full h-full' alt='bank' src={swap2} />
-      <img class='w-full h-full' alt='bank' src={swap3} /></div>
+      {/*<div class='mx-12'> <img class='w-full h-full mb-9' alt='bank' src={bank1} />
+      <img class='w-full h-full mb-9' alt='bank' src={bank2} />
+      <img class='w-full h-full mb-9' alt='bank' src={bank3} />
+      <img class='w-full h-full' alt='bank' src={bank4} /></div> */}
       <div class='mt-12 mb-7 text-[18px] font-light w-[800px]'>More work </div>
       <div class='inline-flex h-[300px]'>
         {/* <a href='/Fortune-Daily' class='lift cursor-pointer '><img alt='bank' className='w-[320px] h-[260px]' src={Daily} /></a>
@@ -29,4 +25,4 @@ const Dex = () => {
   )
 }
 
-export default Dex
+export default Prediction

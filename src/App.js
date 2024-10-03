@@ -8,6 +8,7 @@ import Rush from "./components/Pages/Rush";
 import SRE from "./components/Pages/SRE";
 import Bank from "./components/Pages/Bank";
 import Dex from "./components/Pages/Dex";
+import Prediction from "./components/Pages/Prediction";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/DPS" element={<SRE />} />
           <Route path="/indexxBank" element={<Bank />} />
           <Route path="/Decentralized-Exchange" element={<Dex />} />
+          <Route path="/prediction" element={<Prediction />} />
         </Routes>
       </BrowserRouter>
     </div>
