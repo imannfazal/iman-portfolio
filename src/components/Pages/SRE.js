@@ -13,7 +13,7 @@ const SRE = () => {
   return (
     <div className='md:mx-20 mx-4 md:py-20 py-6 text-[#ffffff]'>
       <div class='md:text-[14px] text-[7px] font-medium'>Project</div>
-      <div class='md:text-[54px] text-[20px] font-medium'>DISCIPLINE PLANNING <div>SYSTEM</div></div>
+      <div class='md:text-[54px] text-[20px] font-medium'>DISCIPLINE PLANNING <div className='-mt-2'>SYSTEM</div></div>
       <div class='mb-12 md:mt-7 mt-2 md:text-[18px] text-[10px] font-light md:w-[800px] w-[250px]'>Designed the user interface of Discipline Planning System using Figma.  </div>
       <div class='md:mx-12 mx-2'><img class='w-full h-full mb-9' alt='bank' src={home} />
       <img class='w-full h-full mb-9' alt='bank' src={welcome} />
@@ -23,9 +23,9 @@ const SRE = () => {
       <div class='mt-12 mb-7 md:text-[18px] text-[13px] font-light md:w-[800px]'>More work </div>
       <div class='inline-flex md:h-[300px]'>
         <a href='/Fortune-Daily' class='lift cursor-pointer '><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={Daily} /></a>
-        <a href='/indexxBank' class='ml-8 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' text='indexx Bank' src={bank} /></a>
-        <a href='/Decentralized-Exchange' class='ml-8 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={dex} /></a>
-        <a href='/Fortune-Rush' class='ml-8 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={Rush} /></a>
+        <a href='/indexxBank' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' text='indexx Bank' src={bank} /></a>
+        <a href='/Decentralized-Exchange' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={dex} /></a>
+        <a href='/Fortune-Rush' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={Rush} /></a>
       </div>
       <Thanks />
     </div>

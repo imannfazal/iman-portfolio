@@ -4,7 +4,7 @@ import Gallery from './Gallery'
 const Hero = () => {
   return (
     <div class='md:mx-[70px] mx-3 md:mt-28 mt-5 pb-20 text-[#ffffff]'>
-        <div class='md:text-[30px] text-[18px] fontClassical'>Hello, it’s Iman.</div>
+        <div class='md:text-[30px] text-[18px] font-light' style={{ fontFamily: 'CLassicalDiaryDemo' }}>Hello, it’s Iman.</div>
         <div class='md:text-[19px] mt-4 text-[13px]'>If you’re looking for a freelance designer to help bring an idea to life and you’re on tight timeline-let’s jam.</div>
         <div class='md:text-[22px] mt-12'>Work Gallery</div>
         <Gallery />
