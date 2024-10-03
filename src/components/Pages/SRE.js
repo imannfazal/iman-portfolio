@@ -23,8 +23,8 @@ const SRE = () => {
       <div class='inline-flex h-[300px]'>
         <a href='/Fortune-Daily' class='lift cursor-pointer '><img alt='bank' className='w-[320px] h-[260px]' src={Daily} /></a>
         <a href='/indexxBank' class='ml-8 lift cursor-pointer'><img alt='bank' className='w-[320px] h-[260px]' text='indexx Bank' src={bank} /></a>
-        <div class='ml-8 lift cursor-pointer'><img alt='bank' className='w-[320px] h-[260px]' src={dex} /></div>
-        <div class='ml-8 lift cursor-pointer'><img alt='bank' className='w-[320px] h-[260px]' src={Rush} /></div>
+        <a href='/Decentralized-Exchange' class='ml-8 lift cursor-pointer'><img alt='bank' className='w-[320px] h-[260px]' src={dex} /></a>
+        <a href='/Fortune-Rush' class='ml-8 lift cursor-pointer'><img alt='bank' className='w-[320px] h-[260px]' src={Rush} /></a>
       </div>
       <div class='text-[19px] mt-12 font-light'>Thanks for looking around.</div>
       <div class='text-[19px] pt-6 pb-2 font-light'>Stay in touch,</div>
