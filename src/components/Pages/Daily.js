@@ -21,7 +21,7 @@ const Daily = () => {
       <img class='w-full h-full' alt='bank' src={buy} /></div>
       <div class='mt-12 mb-7 md:text-[18px] text-[13px] font-light md:w-[800px]'>More work </div>
       <div class='inline-flex md:h-[300px]'>
-        <a href='/predition' class='lift cursor-pointer '><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={pred} /></a>
+        <a href='/prediction' class='lift cursor-pointer '><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={pred} /></a>
         <a href='/DPS' class='md:ml-8 ml-1 lift cursor-pointer '><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={sre} /></a>
         <a href='/Decentralized-Exchange' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={dex} /></a>
         <a href='/Fortune-Rush' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={Rush} /></a>

@@ -24,7 +24,7 @@ const Dex = () => {
       <div class='inline-flex md:h-[300px]'>
         <a href='/Fortune-Daily' class='lift cursor-pointer '><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={Daily} /></a>
         <a href='/DPS' class='md:ml-8 ml-1 lift cursor-pointer '><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={sre} /></a>
-        <a href='/predition' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={pred} /></a>
+        <a href='/prediction' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={pred} /></a>
         <a href='/Fortune-Rush' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={Rush} /></a>
       </div>
       <Thanks />
