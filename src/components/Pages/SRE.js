@@ -9,6 +9,7 @@ import welcome from '../../assets/sre/Welcome.png'
 import info from '../../assets/sre/personal-info.png'
 import report from '../../assets/sre/report.png'
 import Thanks from './Thanks'
+import Scroll from './Scroll'
 const SRE = () => {
   return (
     <div className='md:mx-20 mx-4 md:py-20 py-6 text-[#ffffff]'>
@@ -28,6 +29,7 @@ const SRE = () => {
         <a href='/Fortune-Rush' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={Rush} /></a>
       </div>
       <Thanks />
+      <Scroll />
     </div>
   )
 }

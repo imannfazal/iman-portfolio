@@ -10,6 +10,7 @@ import Daily from '../../assets/daily.png';
 import dex from '../../assets/dex.jpg'
 import Rush from '../../assets/rush.png'
 import Thanks from './Thanks'
+import Scroll from './Scroll'
 
 const Bank = () => {
   return (
@@ -31,6 +32,7 @@ const Bank = () => {
         <a href='/Fortune-Rush' class='md:ml-8 ml-1 lift cursor-pointer'><img alt='bank' className='md:w-[320px] md:h-[260px] w-[320px] h-[85px]' src={Rush} /></a>
       </div>
       <Thanks />
+      <Scroll />
       </div>
   )
 }
