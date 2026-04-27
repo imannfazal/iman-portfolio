@@ -10,7 +10,7 @@ const Header2 = () => {
 
     return (
         <div class="inline-flex md:mx-[70px] mx-[10px] mt-[30px] md:mt-[50px] text-[#ffffff] md:text-[20px] text-[12px]">
-            <a href='/'> <img class='md:w-[52px] w-[30px] cursor-pointer' alt='logo' src={image}
+            <a href='/iman-portfolio'> <img class='md:w-[52px] w-[30px] cursor-pointer' alt='logo' src={image}
                 onMouseEnter={() => setImg(hover_img)}
                 onMouseOut={() => setImg(img)} /></a>
             <div class='md:ml-[570px] ml-[40px] inline-flex'>
