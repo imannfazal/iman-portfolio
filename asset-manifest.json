@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/iman-portfolio/static/css/main.9f55a238.css",
-    "main.js": "/iman-portfolio/static/js/main.bec13e9a.js",
+    "main.js": "/iman-portfolio/static/js/main.5a9e65c4.js",
     "static/js/453.acca0757.chunk.js": "/iman-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/main.png": "/iman-portfolio/static/media/main.360c4049a07ad04768ff.png",
     "static/media/howtoplay.png": "/iman-portfolio/static/media/howtoplay.43512fad685b50b3a225.png",
-    "static/media/resume2.pdf": "/iman-portfolio/static/media/resume2.32c3dc2c308ca285fc3f.pdf",
+    "static/media/resume2.pdf": "/iman-portfolio/static/media/resume2.6138fa3b7003e6e9078c.pdf",
     "static/media/daily.png": "/iman-portfolio/static/media/daily.850c72a194bd9f9214a3.png",
     "static/media/prediction.png": "/iman-portfolio/static/media/prediction.a292f348fd631e65666a.png",
     "static/media/dashboard.png": "/iman-portfolio/static/media/dashboard.9e525fc6f85f3c7629a4.png",
@@ -38,11 +38,11 @@
     "static/media/top.png": "/iman-portfolio/static/media/top.cd1ae0372d4bdd70d91d.png",
     "index.html": "/iman-portfolio/index.html",
     "main.9f55a238.css.map": "/iman-portfolio/static/css/main.9f55a238.css.map",
-    "main.bec13e9a.js.map": "/iman-portfolio/static/js/main.bec13e9a.js.map",
+    "main.5a9e65c4.js.map": "/iman-portfolio/static/js/main.5a9e65c4.js.map",
     "453.acca0757.chunk.js.map": "/iman-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f55a238.css",
-    "static/js/main.bec13e9a.js"
+    "static/js/main.5a9e65c4.js"
   ]
 }
