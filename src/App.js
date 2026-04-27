@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import "./App.css";
 import "./fonts/Krub-Regular.ttf";
 import "./fonts/ClassicalDiary-Regular Demo.ttf"
@@ -15,7 +16,8 @@ function App() {
   return (
     <div>
       <Header2 />
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Fortune-Daily" element={<Daily />} />
@@ -25,7 +27,8 @@ function App() {
           <Route path="/Decentralized-Exchange" element={<Dex />} />
           <Route path="/prediction" element={<Prediction />} />
         </Routes>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
+      </HashRouter>
     </div>
   );
 }
