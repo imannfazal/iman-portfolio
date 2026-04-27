@@ -1,5 +1,5 @@
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./fonts/Krub-Regular.ttf";
 import "./fonts/ClassicalDiary-Regular Demo.ttf"
