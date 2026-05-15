@@ -16,7 +16,7 @@ const Gallery = () => {
                 <a  href='/DPS' class=' lift cursor-pointer'><Image role='Website Design' text='Discipline Planning System' src={SRE} /></a>
                 <a href='/indexxBank' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Bank' src={bank} /></a>
             
-                <a href='/Decentralized-Exchange' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Decentralized Exchange' src={dex} /></a>
+                <a href='/#/Decentralized-Exchange' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Decentralized Exchange' src={dex} /></a>
                 <a href='/Fortune-Rush' class=' lift cursor-pointer'><Image role='Website Design and Development' text='Fortune Rush' src={Rush} /></a>
                 <a href='/prediction' class=' lift cursor-pointer'><Image role='Website Design' text='Prediction Beta' src={pred} /></a>
 

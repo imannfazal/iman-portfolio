@@ -1,36 +1,27 @@
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HashRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
-import "./fonts/Krub-Regular.ttf";
-import "./fonts/ClassicalDiary-Regular Demo.ttf"
-import Home from "./components/Pages/Home";
-import Daily from "./components/Pages/Daily";
-import Rush from "./components/Pages/Rush";
-import SRE from "./components/Pages/SRE";
-import Bank from "./components/Pages/Bank";
-import Dex from "./components/Pages/Dex";
-import Prediction from "./components/Pages/Prediction";
-import Header2 from "./components/Header2";
+import React from 'react'
+import './Gallery.css'
+import SRE from '../assets/SRE.png'
+import Daily from '../assets/daily.png'
+import Rush from '../assets/rush.png'
+import dex from '../assets/dex.jpg'
+import bank from '../assets/bank.png'
+import pred from '../assets/prediction.jpg'
+import Image from './Card'
 
-function App() {
-  return (
-    <div>
-      <Header2 />
-      {/* <BrowserRouter> */}
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Fortune-Daily" element={<Daily />} />
-          <Route path="/Fortune-Rush" element={<Rush />} />
-          <Route path="/DPS" element={<SRE />} />
-          <Route path="/indexxBank" element={<Bank />} />
-          <Route path="/Decentralized-Exchange" element={<Dex />} />
-          <Route path="/prediction" element={<Prediction />} />
-        </Routes>
-      {/* </BrowserRouter> */}
-      </HashRouter>
-    </div>
-  );
+const Gallery = () => {
+    return (
+        <div>
+            <div class="grid grid-cols-3 md:gap-9 gap-3 mt-[20px] text-[#5f5f5f] text-[20px]">
+                <a href='/#/Fortune-Daily' class='lift cursor-pointer'><Image role='Website Design and Development' text='Fortune Daily' src={Daily} /></a>
+                <a href='/#/DPS' class='lift cursor-pointer'><Image role='Website Design' text='Discipline Planning System' src={SRE} /></a>
+                <a href='/#/indexxBank' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Bank' src={bank} /></a>
+            
+                <a href='/#/Decentralized-Exchange' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Decentralized Exchange' src={dex} /></a>
+                <a href='/#/Fortune-Rush' class='lift cursor-pointer'><Image role='Website Design and Development' text='Fortune Rush' src={Rush} /></a>
+                <a href='/#/prediction' class='lift cursor-pointer'><Image role='Website Design' text='Prediction Beta' src={pred} /></a>
+            </div>
+        </div>
+    )
 }
 
-export default App;
+export default Gallery
