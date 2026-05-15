@@ -12,14 +12,13 @@ const Gallery = () => {
     return (
         <div>
             <div class="grid grid-cols-3 md:gap-9 gap-3 mt-[20px] text-[#5f5f5f] text-[20px]">
-                <a href='/Fortune-Daily' class='lift cursor-pointer'><Image role='Website Design and Development' text='Fortune Daily' src={Daily} /></a>
-                <a  href='/DPS' class=' lift cursor-pointer'><Image role='Website Design' text='Discipline Planning System' src={SRE} /></a>
-                <a href='/indexxBank' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Bank' src={bank} /></a>
-            
-                <a href='/#/Decentralized-Exchange' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Decentralized Exchange' src={dex} /></a>
-                <a href='/Fortune-Rush' class=' lift cursor-pointer'><Image role='Website Design and Development' text='Fortune Rush' src={Rush} /></a>
-                <a href='/prediction' class=' lift cursor-pointer'><Image role='Website Design' text='Prediction Beta' src={pred} /></a>
+                <a href='/iman-portfolio/#/indexxBank' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Bank' src={bank} /></a>
+                <a href='/iman-portfolio/#/Fortune-Daily' class='lift cursor-pointer'><Image role='Website Design and Development' text='Fortune Daily' src={Daily} /></a>
+                <a href='/iman-portfolio/#/DPS' class='lift cursor-pointer'><Image role='Website Design' text='Discipline Planning System' src={SRE} /></a>
 
+                <a href='/iman-portfolio/#/Decentralized-Exchange' class='lift cursor-pointer'><Image role='Website Design and Development' text='indexx Decentralized Exchange' src={dex} /></a>
+                <a href='/iman-portfolio/#/Fortune-Rush' class='lift cursor-pointer'><Image role='Website Design and Development' text='Fortune Rush' src={Rush} /></a>
+                <a href='/iman-portfolio/#/prediction' class='lift cursor-pointer'><Image role='Website Design' text='Prediction Beta' src={pred} /></a>
             </div>
         </div>
     )
