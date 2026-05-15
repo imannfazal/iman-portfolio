@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/iman-portfolio/static/css/main.9f55a238.css",
-    "main.js": "/iman-portfolio/static/js/main.f60017f0.js",
+    "main.js": "/iman-portfolio/static/js/main.56b7506b.js",
     "static/js/453.acca0757.chunk.js": "/iman-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/main.png": "/iman-portfolio/static/media/main.360c4049a07ad04768ff.png",
     "static/media/howtoplay.png": "/iman-portfolio/static/media/howtoplay.43512fad685b50b3a225.png",
-    "static/media/resume2.pdf": "/iman-portfolio/static/media/resume2.6138fa3b7003e6e9078c.pdf",
     "static/media/daily.png": "/iman-portfolio/static/media/daily.850c72a194bd9f9214a3.png",
     "static/media/prediction.png": "/iman-portfolio/static/media/prediction.a292f348fd631e65666a.png",
     "static/media/dashboard.png": "/iman-portfolio/static/media/dashboard.9e525fc6f85f3c7629a4.png",
@@ -20,6 +19,7 @@
     "static/media/profile.png": "/iman-portfolio/static/media/profile.f3e514baeba017488902.png",
     "static/media/swap2.jpg": "/iman-portfolio/static/media/swap2.20ab0a5d841e99ccf244.jpg",
     "static/media/swap1.jpg": "/iman-portfolio/static/media/swap1.8cb3fe930cfece410460.jpg",
+    "static/media/Iman_Fazal_Resume_UXUI.pdf": "/iman-portfolio/static/media/Iman_Fazal_Resume_UXUI.33123729dd186062c56d.pdf",
     "static/media/report.png": "/iman-portfolio/static/media/report.2dc8fb988246836e35f5.png",
     "static/media/bank.png": "/iman-portfolio/static/media/bank.41c24c1825834b36d6d2.png",
     "static/media/info.png": "/iman-portfolio/static/media/info.278b71f1f5218c2ed362.png",
@@ -38,11 +38,11 @@
     "static/media/top.png": "/iman-portfolio/static/media/top.cd1ae0372d4bdd70d91d.png",
     "index.html": "/iman-portfolio/index.html",
     "main.9f55a238.css.map": "/iman-portfolio/static/css/main.9f55a238.css.map",
-    "main.f60017f0.js.map": "/iman-portfolio/static/js/main.f60017f0.js.map",
+    "main.56b7506b.js.map": "/iman-portfolio/static/js/main.56b7506b.js.map",
     "453.acca0757.chunk.js.map": "/iman-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f55a238.css",
-    "static/js/main.f60017f0.js"
+    "static/js/main.56b7506b.js"
   ]
 }
