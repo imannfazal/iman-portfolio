@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Pdf from '../assets/resume2.pdf'
+import Pdf from '../assets/Iman_Fazal_Resume_UXUI.pdf'
 import img from '../assets/Logo.png'
 import hover_img from '../assets/hover-logo.png'
 
