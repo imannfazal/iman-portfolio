@@ -17,8 +17,8 @@ const SRE = () => {
 
       {/* Header */}
       <div className='md:text-[14px] text-[7px] font-medium uppercase tracking-widest text-gray-400'>Project</div>
-      <div className='md:text-[54px] text-[20px] font-medium'>DISCIPLINE PLANNING <div className='-mt-2'>SYSTEM</div></div>
-      <div className='mb-12 md:mt-7 mt-2 md:text-[18px] text-[10px] font-light'>
+      <div className='md:text-[54px] text-[20px] font-medium'>DISCIPLINE PLANNING SYSTEM</div>
+      <div className='mb-12 mt-2 md:text-[18px] text-[10px] font-light'>
         Designed the user interface of Discipline Planning System using Figma, a student-focused platform that guides users through self-assessment activities and generates a personalised discipline report.
       </div>
 
