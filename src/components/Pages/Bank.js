@@ -58,15 +58,15 @@ const Bank = () => {
           <div className='md:text-[16px] text-[13px] font-light  text-gray-300 mb-8'>
             Most crypto platforms throw every stat, graph, and number at the user at once. indexx Bank needed to serve both casual users checking their portfolio and power users managing active positions, without alienating either. The challenge was designing a banking experience that felt trustworthy and calm while still surfacing real-time data.
           </div>
-          <img className='w-full rounded-lg md:w-[700px]' alt='indexx Bank dashboard' src={dashboard} />
-          <div className='text-[12px] text-gray-500 mt-2 mb-4'>Dashboard, white background with green accents to communicate stability, not anxiety</div>
+          <img className='w-full rounded-lg md:w-[800px] mx-auto' alt='indexx Bank dashboard' src={dashboard} />
+          <div className='text-[12px] text-gray-500 mt-2 mb-4 text-center'>Dashboard, white background with green accents to communicate stability, not anxiety</div>
         </div>
 
         {/* My Role */}
         <div className='mb-16'>
           <div className='text-[11px] uppercase font-medium tracking-widest text-gray-400 mb-2'>My Role</div>
           <div className='md:text-[28px] text-[18px] font-medium mb-4'>End-to-end, from Figma to production</div>
-          <div className='grid md:grid-cols-2 grid-cols-1 gap-4 md:w-[700px] mb-8'>
+          <div className='grid md:grid-cols-2 grid-cols-1 gap-4 md:w-[800px] mb-8'>
             <div className='border border-gray-700 rounded-lg p-5'>
               <div className='font-medium mb-2'>Design</div>
               <div className='text-[14px] text-gray-300 font-light'>Defined user flows, designed all screens in Figma, iterated on feedback from the product team.</div>
@@ -96,10 +96,10 @@ const Bank = () => {
                 </React.Fragment>
               ))}
             </div>
-            <img className='w-full rounded-lg md:w-[700px]' alt='Borrow screen' src={borrow1} />
-            <div className='text-[12px] text-gray-500 mt-2 mb-6'>Borrow screen, one step at a time to reduce cognitive load on a high-stakes action</div>
-            <img className='w-full rounded-lg md:w-[700px]' alt='Awaiting deposit' src={borrow2} />
-            <div className='text-[12px] text-gray-500 mt-2'>Awaiting deposit state, explicit progress indicators so users know exactly where they are</div>
+            <img className='w-full rounded-lg md:w-[800px] mx-auto' alt='Borrow screen' src={borrow1} />
+            <div className='text-[12px] text-gray-500 mt-2 mb-8 text-center'>Borrow screen, one step at a time to reduce cognitive load on a high-stakes action</div>
+            <img className='w-full rounded-lg md:w-[800px] mx-auto' alt='Awaiting deposit' src={borrow2} />
+            <div className='text-[12px] text-gray-500 mt-2 text-center'>Awaiting deposit state, explicit progress indicators so users know exactly where they are</div>
           </div>
 
           <div>
@@ -112,8 +112,8 @@ const Bank = () => {
                 </React.Fragment>
               ))}
             </div>
-            <img className='w-full rounded-lg md:w-[700px]' alt='Withdraw crypto' src={withdraw} />
-            <div className='text-[12px] text-gray-500 mt-2'>Withdraw crypto, coin selection, address input, and network fee all visible before confirmation</div>
+            <img className='w-full rounded-lg md:w-[800px] mx-auto' alt='Withdraw crypto' src={withdraw} />
+            <div className='text-[12px] text-gray-500 mt-2 text-center'>Withdraw crypto, coin selection, address input, and network fee all visible before confirmation</div>
           </div>
         </div>
 
@@ -122,28 +122,28 @@ const Bank = () => {
           <div className='text-[11px] uppercase font-medium tracking-widest text-gray-400 mb-2'>Design Decisions</div>
           <div className='md:text-[28px] text-[18px] font-medium mb-8'>Why I made specific choices</div>
 
-          <div className='border border-gray-700 rounded-lg p-6 mb-6 md:w-[700px]'>
+          <div className='border border-gray-700 rounded-lg p-6 mb-6 md:w-[800px]'>
             <div className='font-medium mb-2'>Why a clean white dashboard with green accents?</div>
             <div className='text-[14px] text-gray-300 font-light'>Most crypto platforms use dark themes that feel anxious. White with a single green accent communicates stability and trust, closer to a banking app than a trading terminal.</div>
           </div>
 
-          <div className='border border-gray-700 rounded-lg p-6 mb-6 md:w-[700px]'>
+          <div className='border border-gray-700 rounded-lg p-6 mb-6 md:w-[800px]'>
             <div className='font-medium mb-2'>Why break the borrow flow into multiple steps?</div>
             <div className='text-[14px] text-gray-300 font-light'>Borrowing against crypto is high-stakes. One step at a time reduces cognitive load and gives users a clear sense of progress, reducing drop-off on a complex action.</div>
           </div>
 
-          <div className='border border-gray-700 rounded-lg p-6 mb-6 md:w-[700px]'>
+          <div className='border border-gray-700 rounded-lg p-6 mb-6 md:w-[800px]'>
             <div className='font-medium mb-2'>Why design empty and error states explicitly?</div>
             <div className='text-[14px] text-gray-300 font-light'>A platform users trust with real money must communicate clearly when something goes wrong. Blank screens feel broken, I designed explicit states for every key screen.</div>
-            <img className='w-full rounded-lg mt-4 md:w-[700px]' alt='Invest page empty state' src={invest} />
-            <div className='text-[12px] text-gray-500 mt-2'>Invest page, empty state with clear labels so users never feel lost</div>
+            <img className='w-full rounded-lg mt-4 md:w-[700px] mx-auto' alt='Invest page empty state' src={invest} />
+            <div className='text-[12px] text-gray-500 mt-2 text-center'>Invest page, empty state with clear labels so users never feel lost</div>
           </div>
 
-          <div className='border border-gray-700 rounded-lg p-6 mb-6 md:w-[700px]'>
+          <div className='border border-gray-700 rounded-lg p-6 mb-6 md:w-[800px]'>
             <div className='font-medium mb-2'>Why tab navigation inside My Page?</div>
             <div className='text-[14px] text-gray-300 font-light'>My Page held Rewards, Earn, and Transaction History. Tabs let users jump directly to what they need instead of scrolling through everything at once.</div>
-            <img className='w-full rounded-lg mt-4 md:w-[700px]' alt='My Page tab navigation' src={mypage} />
-            <div className='text-[12px] text-gray-500 mt-2'>My Page, tab bar lets users switch between Rewards, Earn, Borrow, Invest, and History without losing context</div>
+            <img className='w-full rounded-lg mt-4 md:w-[700px] mx-auto' alt='My Page tab navigation' src={mypage} />
+            <div className='text-[12px] text-gray-500 mt-2 text-center'>My Page, tab bar lets users switch between Rewards, Earn, Borrow, Invest, and History without losing context</div>
           </div>
         </div>
 
@@ -157,7 +157,7 @@ const Bank = () => {
         </div>
 
         {/* Learnings */}
-        <div className='grid md:grid-cols-2 grid-cols-1 gap-4 md:w-[700px] mb-20'>
+        <div className='grid md:grid-cols-2 grid-cols-1 gap-4 md:w-[800px] mb-20'>
           <div className='border border-gray-700 rounded-lg p-5'>
             <div className='font-medium mb-2'>What I learned</div>
             <div className='text-[14px] text-gray-300 font-light'>Designing for trust in fintech means every micro-decision matters, error messages, loading states, confirmation flows. Users notice when these are missing.</div>
