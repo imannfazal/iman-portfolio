@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/iman-portfolio/static/css/main.68482997.css",
-    "main.js": "/iman-portfolio/static/js/main.9424aa1d.js",
-    "static/js/453.acca0757.chunk.js": "/iman-portfolio/static/js/453.acca0757.chunk.js",
+    "main.css": "/iman-portfolio/static/css/main.25d4c4a3.css",
+    "main.js": "/iman-portfolio/static/js/main.9005106b.js",
+    "static/js/453.41811d64.chunk.js": "/iman-portfolio/static/js/453.41811d64.chunk.js",
     "static/media/main.png": "/iman-portfolio/static/media/main.360c4049a07ad04768ff.png",
     "static/media/howtoplay.png": "/iman-portfolio/static/media/howtoplay.43512fad685b50b3a225.png",
+    "static/media/screen-6.jpg": "/iman-portfolio/static/media/screen-6.c869ed99444c938d911b.jpg",
+    "static/media/screen-5.jpg": "/iman-portfolio/static/media/screen-5.2c30d4080965991cbfbc.jpg",
+    "static/media/screen-1.jpg": "/iman-portfolio/static/media/screen-1.b6dde13e3b46e9c73eed.jpg",
     "static/media/daily.png": "/iman-portfolio/static/media/daily.850c72a194bd9f9214a3.png",
+    "static/media/screen-4.jpg": "/iman-portfolio/static/media/screen-4.5ec57cb03a1e13a698cf.jpg",
     "static/media/prediction.png": "/iman-portfolio/static/media/prediction.a292f348fd631e65666a.png",
+    "static/media/screen-3.jpg": "/iman-portfolio/static/media/screen-3.7f6bb824b3a157a495df.jpg",
     "static/media/dashboard.png": "/iman-portfolio/static/media/dashboard.9e525fc6f85f3c7629a4.png",
+    "static/media/screen-2.jpg": "/iman-portfolio/static/media/screen-2.750725a24e790073749b.jpg",
     "static/media/leader.png": "/iman-portfolio/static/media/leader.d2020f594d6f7ed50ba0.png",
     "static/media/borrow.png": "/iman-portfolio/static/media/borrow.6beec31c705a789b1bb0.png",
     "static/media/page4.png": "/iman-portfolio/static/media/page4.8607bac374a188d6b867.png",
@@ -37,12 +43,12 @@
     "static/media/header.jpg": "/iman-portfolio/static/media/header.e64b5533bcbf2f9bb03b.jpg",
     "static/media/top.png": "/iman-portfolio/static/media/top.cd1ae0372d4bdd70d91d.png",
     "index.html": "/iman-portfolio/index.html",
-    "main.68482997.css.map": "/iman-portfolio/static/css/main.68482997.css.map",
-    "main.9424aa1d.js.map": "/iman-portfolio/static/js/main.9424aa1d.js.map",
-    "453.acca0757.chunk.js.map": "/iman-portfolio/static/js/453.acca0757.chunk.js.map"
+    "main.25d4c4a3.css.map": "/iman-portfolio/static/css/main.25d4c4a3.css.map",
+    "main.9005106b.js.map": "/iman-portfolio/static/js/main.9005106b.js.map",
+    "453.41811d64.chunk.js.map": "/iman-portfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68482997.css",
-    "static/js/main.9424aa1d.js"
+    "static/css/main.25d4c4a3.css",
+    "static/js/main.9005106b.js"
   ]
 }
