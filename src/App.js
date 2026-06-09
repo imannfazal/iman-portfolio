@@ -11,6 +11,7 @@ import Bank from "./components/Pages/Bank";
 import Dex from "./components/Pages/Dex";
 import Prediction from "./components/Pages/Prediction";
 import Header2 from "./components/Header2";
+import FridgeSense from "./components/Pages/FridgeSense.js";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/indexxBank" element={<Bank />} />
           <Route path="/Decentralized-Exchange" element={<Dex />} />
           <Route path="/prediction" element={<Prediction />} />
+          <Route path="/fridge-sense" element={<FridgeSense />} />
         </Routes>
       {/* </BrowserRouter> */}
       </HashRouter>
